@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 				Query query = new Query(str);
 				QueryResult result = twitter.search(query);
 				for (Status status : result.getTweets()) {
-					Log.i("Twitter", "@" + status.getUser().getScreenName()
+					Log.e("Twitter", "@" + status.getUser().getScreenName()
 							+ ":" + status.getText());
 				}
 
