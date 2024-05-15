@@ -14,6 +14,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+	namespace="com.course.example.twitterapi"
     }
     buildToolsVersion '33.0.1'
 }
